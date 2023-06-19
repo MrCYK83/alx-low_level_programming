@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * Main - prints numbers between 0 to 9 with commas and spaces
+ * main - prints numbers between 0 to 9 with commas and spaces
  *
- * Return - returns 0 if code is a success
+ * Return: Always 0 if code is a success
  */
 int main(void)
 {
