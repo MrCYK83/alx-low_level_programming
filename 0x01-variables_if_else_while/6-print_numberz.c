@@ -2,7 +2,7 @@
 /**
  * main - prints numbers between 0 to 9
  *
- * return: returns 0 when code runs okay (Success)
+ * Return: returns 0 when code runs okay (Success)
  */
 int main(void)
 {
