@@ -2,17 +2,17 @@
 /**
  * main - Prints the alphabet
  *
- * Return -  0 (Success)
+ * Return: return 0 if (Success)
  */
 int main(void)
 {
-        char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-        int i;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-        for (i = 0; i < 26; i++)
-        {
-                putchar(alp[i]);
-        }
-        putchar('\n');
-        return (0);
+	for (i = 0; i < 26; i++)
+	{
+		putchar(alp[i]);
+	}
+	putchar('\n');
+	return (0);
 }

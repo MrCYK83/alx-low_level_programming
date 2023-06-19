@@ -4,11 +4,11 @@
 /**
  * main - Finds if a number is greater than 5, less than 6 or is 0
  *
- * return - 0 (success)
+ * Return: return 0 if (success)
  */
 int main(void)
 {
-	int n, l;;
+	int n, l;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
