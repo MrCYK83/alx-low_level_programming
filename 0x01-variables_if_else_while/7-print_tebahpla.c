@@ -2,7 +2,7 @@
 /**
  * main - prints lowercase alphabet in reverse
  *
- * Return - returns 0 if code runs okay (Success)
+ * Return: returns 0 if code runs okay (Success)
  */
 int main(void)
 {
