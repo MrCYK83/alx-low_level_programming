@@ -6,37 +6,35 @@
  */
 int main(void)
 {
-	int x, y, z;
+	int i, e, g;
 
-	x = 48;
-	y = 48;
-	z = 48;
+	i = e = g = 48;
 
-	while (y < 58)
+	while (e < 58)
 	{
-		z = 48;
-		while (x < 58)
+		i = 48;
+		while (i < 58)
 		{
-			z = 48;
-			while (z < 58)
+			g = 48;
+			while (g < 58)
 			{
-				if (y != x && y != z && x != z && y < x && x < z)
+				if (e != i && e != g && i != g && e < i && i < g)
 				{
-					putchar(y);
-					putchar(x);
-					putchar(z);
-					if (x == 56 && y == 55 && z == 57)
+					putchar(e);
+					putchar(i);
+					putchar(g);
+					if (i == 56 && e == 55 && g == 57)
 					{
 						break;
 					}
 					putchar(',');
 					putchar(' ');
 				}
-				z++;
+				g++;
 			}
-			x++;
+			i++;
 		}
-		y++;
+		e++;
 	}
 	putchar('\n');
 	return (0);
