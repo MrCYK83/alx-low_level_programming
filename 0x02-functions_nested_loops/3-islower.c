@@ -4,7 +4,7 @@
 * _islower - shows 1 if the input is a
 * lowercase character, and 0 if in other cases
 *
-* The 'c' is in ASCII code
+* @c is in ASCII code
 *
 * Return: 1 for lowercase character. 0 for the rest.
 */
