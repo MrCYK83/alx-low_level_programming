@@ -3,7 +3,7 @@
 * _isalpha - shows 1 if the input is a
 * letter Another cases, shows 0
 *
-* @c is in ASCII code
+* @c: is in ASCII code
 *
 * Return: 1 for letters. 0 for the rest.
 */
