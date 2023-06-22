@@ -4,8 +4,8 @@
 * add - Adds two integers and returns
 * the result.
 *
-* 'a' is first number
-* 'b' is second number
+* @a: is first number
+* @b: is second number
 *
 * Return: sum of first and second number
 */

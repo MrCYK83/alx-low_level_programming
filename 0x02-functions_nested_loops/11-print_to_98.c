@@ -4,7 +4,7 @@
 * print_to_98 - Prints all natural numbers
 * from n to 98.
 *
-* 'n' is the input number.
+* @n: is the input number.
 *
 * Return: no return.
 */

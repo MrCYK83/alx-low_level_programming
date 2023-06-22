@@ -4,7 +4,7 @@
 * print_sign - Determines if the input number is
 * greater, equal or less than zero.
 *
-* "n" is an integer input.
+* @n: is an integer input.
 *
 * Return: 1 if greater than zero. 0 if zero.
 * -1 if less than zero.
